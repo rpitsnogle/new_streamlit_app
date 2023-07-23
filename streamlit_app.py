@@ -42,7 +42,7 @@ try:
 except URLError as e:
   streamlit.error()
 # display the table
-streamlit.dataframe(fruityvice_normalized)
+# streamlit.dataframe(fruityvice_normalized)
 
 streamlit.stop()
 
