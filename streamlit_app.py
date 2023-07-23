@@ -40,7 +40,7 @@ try:
     streamlit.dataframe(back_from_function)
     
 # display the table
-    streamlit.dataframe(fruityvice_normalized)
+streamlit.dataframe(fruityvice_normalized)
 
 except URLError as e:
   streamlit.error()
